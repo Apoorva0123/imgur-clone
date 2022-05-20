@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: #333;
+}
+.nav{
+    display: flex;
+    background-color: navy;
+    height: 70px;
+    margin-top: 0px;
+    background-image: url("https://s.imgur.com/desktop-assets/desktop-assets/homebg.e52b5cdf24f83bcd55f9f1318855f2ef.png");
+    width: 100%;
+}
+input{
+    margin: auto;
+    opacity: 0.8;
+    padding: 8px 35px 8px 10px;
+    background: hsla(0,0%,100%,.25);
+    border: 1px solid transparent;
+    outline: 0 none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 16px;
+}
+#home{
+    background-color: #333;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-gap: 10px;
+    margin: auto;
+}
+img{
+    width: 100%;
+    margin: auto;
+}
+p{
+    color: white;
+    background-color: rgb(71,74,81);
+    text-align: center;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#home>div{
+    border-radius: 5px;
+    background-color: rgb(71,74,81);
+    height: auto;
+}
